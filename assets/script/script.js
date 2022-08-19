@@ -8,11 +8,11 @@ iniciar.addEventListener("click", Start)
 pausar.addEventListener("click", Pause)
 parar.addEventListener("click", Stop)
 
-let mili = container.querySelector("#milisegundos")
+let milis = container.querySelector("#milissegundos")
 let secon = container.querySelector("#segundos")
 let minut = container.querySelector("#minutos")
 let hr = container.querySelector("#horas")
-let miliseconds = 0
+let milisseconds = 0
 let seconds = 0
 let minutes = 0
 let hours = 0
@@ -32,11 +32,11 @@ function Pause() {
 //FUNÇÃO PARAR
 function Stop() {
     clearInterval(interval)
-    miliseconds = 0
+    milisseconds = 0
     seconds = 0
     minutes = 0
     hours = 0
-    mili.innerHTML = "000"
+    milis.innerHTML = "000"
     secon.innerHTML = "00"
     minut.innerHTML = "00"
     hr.innerHTML = "00"
@@ -56,9 +56,9 @@ function Number(element) {
 //FUNÇÃO CONTADOR
 function Counter() {
     
-    if((miliseconds += 10) === 1000) {
+    if((milisseconds += 10) === 1000) {
         seconds ++
-        miliseconds = 0
+        milisseconds = 0
     }
     if(seconds === 60) {
         minutes ++
@@ -69,7 +69,7 @@ function Counter() {
         minutes = 0
     }
     
-    mili.innerHTML = Number(miliseconds)
+    milis.innerHTML = Number(milisseconds)
     secon.innerHTML = Number(seconds)
     minut.innerHTML = Number(minutes)
     hr.innerHTML = Number(hours)
