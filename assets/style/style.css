@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #101026;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.content {
+    width: 480px;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.container .content .title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container .content .title h1 {
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+.container .content .cards {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.container .content .card {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(119, 213, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px;
+    border-radius: 5px;
+}
+
+.container .content .cards .card span {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.container .content .buttons {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.container .content .buttons button {
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 12px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.container .content .buttons button:nth-child(1) {
+    background-color: #008000;
+    color: #fff;
+}
+
+.container .content .buttons button:nth-child(2) {
+    background-color: #636363;
+    color: #fff;
+}
+
+.container .content .buttons button:nth-child(3) {
+    background-color: #ff0000;
+    color: #fff;
+}
