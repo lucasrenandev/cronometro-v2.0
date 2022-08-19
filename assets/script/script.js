@@ -18,7 +18,7 @@ let minutes = 0
 let hours = 0
 let interval = null
 
-//FUNCÃO INICIAR
+//FUNÇÃO INICIAR
 function Start() {
     Pause()
     interval = setInterval(Counter, 10)
