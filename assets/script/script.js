@@ -11,7 +11,7 @@ parar.addEventListener("click", Stop)
 let milis = container.querySelector("#milissegundos")
 let secon = container.querySelector("#segundos")
 let minut = container.querySelector("#minutos")
-let hr = container.querySelector("#horas")
+let hrs = container.querySelector("#horas")
 let milisseconds = 0
 let seconds = 0
 let minutes = 0
@@ -39,7 +39,7 @@ function Stop() {
     milis.innerHTML = "000"
     secon.innerHTML = "00"
     minut.innerHTML = "00"
-    hr.innerHTML = "00"
+    hrs.innerHTML = "00"
 }
 
 //FUNÇÃO ELEMENTO ZERO
@@ -72,5 +72,5 @@ function Counter() {
     milis.innerHTML = Number(milisseconds)
     secon.innerHTML = Number(seconds)
     minut.innerHTML = Number(minutes)
-    hr.innerHTML = Number(hours)
+    hrs.innerHTML = Number(hours)
 }
