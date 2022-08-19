@@ -16,7 +16,7 @@
 
 .content {
     width: 450px;
-    background-color: #5168a7;
+    background-color: #4760a5;
     padding: 10px 30px;
     border-radius: 5px;
 }
@@ -41,12 +41,22 @@
 .container .content .card {
     width: 100px;
     height: 100px;
-    background-color: #9de6ff;
+    background-color: #8bdefa;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 12px;
     border-radius: 5px;
+}
+
+.container .content .card :where(.horas, .minutos, .segundos, .milisegundos) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 1em;
+    font-weight: 700;
 }
 
 .container .content .cards .card span {
