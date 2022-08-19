@@ -16,7 +16,7 @@
 
 .content {
     width: 450px;
-    background-color: #395bb9;
+    background-color: #1a3377;
     padding: 10px 30px;
     border-radius: 5px;
 }
@@ -81,12 +81,12 @@
 }
 
 .container .content .buttons button:nth-child(1) {
-    background-color: #008000;
+    background-color: #00b300;
     color: #fff;
 }
 
 .container .content .buttons button:nth-child(2) {
-    background-color: #474747;
+    background-color: #525252;
     color: #fff;
 }
 
