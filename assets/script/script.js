@@ -69,7 +69,7 @@ function Counter() {
         minutes = 0
     }
     
-    milis.innerHTML = Number(milisseconds)
+    milis.innerHTML = milisseconds
     secon.innerHTML = Number(seconds)
     minut.innerHTML = Number(minutes)
     hrs.innerHTML = Number(hours)
